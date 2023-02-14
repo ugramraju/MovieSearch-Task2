@@ -1,0 +1,59 @@
+* {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: red;
+    text-decoration: underline;
+}
+
+.search-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+input {
+    border: 5px solid yellow;
+    height: 2em;
+    font-size: 1em;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#inputSearchMovie {
+    width: 20%
+}
+
+button {
+    width: 6%;
+    font-size: 1em;
+    border: 5px solid palevioletred;
+    color: blueviolet;
+    font-weight: bold;
+    border-radius: 0.2em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.details-container {
+    display: grid;
+    grid-template-columns: 20% 20%;
+    justify-content: center;
+    margin: 2%;
+    column-gap: 2%;
+}
+
+p {
+    text-align: left;
+    font-size: 1em;
+}
+
+h2 {
+    color: blue;
+}
